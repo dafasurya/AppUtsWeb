@@ -1,0 +1,61 @@
+<form id="orderForm">
+    <link rel="stylesheet" href="style order.css">
+    <table>
+        <thead>
+            <title>Form Order</title>
+            <tr>
+                <th>Nama Makanan</th>
+                <th>Harga</th>
+                <th>Jumlah</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nasi Pecel</td>
+                <td>Rp <span id="nasiPecelHarga">6000</span></td>
+                <td><input type="number" id="nasiPecelJumlah" name="nasiPecelJumlah" min="0" value="0"></td>
+                
+            </tr>
+            <tr>
+                <td>Nasi Jotos</td>
+                <td>Rp <span id="nasiJotosHarga">6000</span></td>
+                <td><input type="number" id="nasiJotosJumlah" name="nasiJotosJumlah" min="0" value="0"></td>
+                
+            </tr>
+            <tr>
+                <td>Kopi Hitam</td>
+                <td>Rp <span id="kopiHitamHarga">5000</span></td>
+                <td><input type="number" id="kopiHitamJumlah" name="kopiHitamJumlah" min="0" value="0"></td>
+                
+            </tr>
+            <tr>
+                <td>Nasi Urap</td>
+                <td>Rp <span id="nasiUrapHarga">6000</span></td>
+                <td><input type="number" id="nasiUrapJumlah" name="nasiUrapJumlah" min="0" value="0"></td>
+               
+            </tr>
+            <tr>
+                <td>Es Teh Manis</td>
+                <td>Rp <span id="esTehManisHarga">4000</span></td>
+                <td><input type="number" id="esTehManisJumlah" name="esTehManisJumlah" min="0" value="0"></td>
+                
+            </tr>
+            <tr>
+                <td>Es Jeruk</td>
+                <td>Rp <span id="esJerukHarga">4000</span></td>
+                <td><input type="number" id="esJerukJumlah" name="esJerukJumlah" min="0" value="0"></td>
+                
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="3">Total</th>
+                <th id="totalHarga">Rp 0</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <button type="submit">Bayar Sekarang</button>
+</form>
+
+<script src="order.js"></script>
